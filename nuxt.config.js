@@ -14,7 +14,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // load font from google font on every page
+      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Indie+Flower" }
     ]
   },
 
