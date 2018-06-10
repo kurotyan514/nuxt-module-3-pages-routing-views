@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-module-3-pages-routing-views",
+  "version": "1.0.0",
+  "description": "My magnificent Nuxt.js project",
+  "author": "sean huang",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
